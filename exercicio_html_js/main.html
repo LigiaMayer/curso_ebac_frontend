@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Integrando HTML com JS</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Integrando HTML com JS</h1>
+        <form id="form-validate">
+            <h2>Preencha os campos</h2>
+            <label for="number-1">Campo A: 
+                <input type="number" name="campo-A" id="number-1" required placeholder="Escreva um numero">
+            </label>
+            <label for="number-2">Campo B: 
+                <input type="number" name="campo-B" id="number-2" required placeholder="Escreva um número">
+            </label>
+            <button type="submit">Enviar</button>
+        </form>
+        <p class="sucess-message"></p>
+        <p class="fail-message"></p>
+    </div>
+    
+    <script src="main.js"></script>
+</body>
+</html>
